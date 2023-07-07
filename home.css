@@ -6,8 +6,7 @@
     font-family: Duru Sans;
 
   }
-.body{
-}
+
 #hero{
     margin-left: 80px;
     
@@ -211,14 +210,13 @@
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
-}
+
 .footer{
     color: #FFF;
     background-color: #9c717100;
-    align-items: end;
-    text-align: center;
+
     position:fixed;
     bottom:0;
     width:100%;
-    height:flex; 
 }
+    }
