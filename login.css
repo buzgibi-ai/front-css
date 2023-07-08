@@ -1,0 +1,95 @@
+*{
+    margin: auto;
+}
+.card{
+    margin-top: 75px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 2px solid #98CD3F;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Duru Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 40px;
+}
+
+.signin{
+    color: #0008e277;
+    font-family: Duru Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 38px;
+    align-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+#email{
+    border-width: 0.19lh;
+    font-weight: 500;
+    height: 18px;
+    width: 200px;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+#email:active{
+    border-color: #0009e2;
+
+}
+#password{
+    border-width: 0.19lh;
+    font-weight: 500;
+    height: 18px;
+    width: 200px;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+#password:active{
+    border-color: #0009e2;
+
+}
+.signin > ul{
+
+    list-style-type: none;
+}
+.signin > li{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    list-style-type: none;
+}
+
+.logo{
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.card-grid > ul {
+    list-style: none;
+    list-style-type: none;
+}
+.card-grid > li {
+    list-style: none;
+    list-style-type: none;
+}
+.signinButton{
+    background-color: #0009e2;
+    padding: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    color: #fff;
+    display: flex;
+    position: flex;
+}
