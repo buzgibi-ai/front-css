@@ -1,0 +1,78 @@
+{
+    "sourceFile": "home.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1688877307320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688877315179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     </section>\n </body>\n <footer id=\"footer\" class=\"footer\">\n             <div class=\"footerName\">\n-                2023 - Buz Gibi App  COPYRIGHT © 2023 TTH - ALL RIGHTS RESERVED. \n+                2023 - Buz Gibi App  COPYRIGHT © 2023 Buz Gibi App - ALL RIGHTS RESERVED. \n             </div>\n             <div class=\"allreserved\">\n                All rights reserved\n             </div>\n"
+                },
+                {
+                    "date": 1688877320931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     </section>\n </body>\n <footer id=\"footer\" class=\"footer\">\n             <div class=\"footerName\">\n-                2023 - Buz Gibi App  COPYRIGHT © 2023 Buz Gibi App - ALL RIGHTS RESERVED. \n+                COPYRIGHT © 2023 Buz Gibi App - ALL RIGHTS RESERVED. \n             </div>\n             <div class=\"allreserved\">\n                All rights reserved\n             </div>\n"
+                },
+                {
+                    "date": 1688877336454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,6 @@\n <footer id=\"footer\" class=\"footer\">\n             <div class=\"footerName\">\n                 COPYRIGHT © 2023 Buz Gibi App - ALL RIGHTS RESERVED. \n             </div>\n-            <div class=\"allreserved\">\n-               All rights reserved\n-            </div>\n </footer>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688890401501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,23 +11,8 @@\n \n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Buzgibi Home</title>\n-    <header>\n-        <section class=\"Navbarmenu\">\n-        <img src=\"images\\Blue-logo.png\" alt=\"logo Buzgibi Buzgibiapp-logo\">\n-            <nav>\n-                <input id=\"menu-toggle\" type=\"checkbox\" />\n-                <label class='menu-button-container' for=\"menu-toggle\">\n-                    <div class='menu-button'></div>\n-                </label>\n-                <ul class=\"menu\">\n-                    <li class=\"signin\">Sign in</li>\n-                    <li class=\"signup\">Sign Up</li>\n-                </ul>\n-            <nav>  \n-        </section>\n-    </header>\n </head>\n <body>\n     <section >\n          <div id=\"hero\">\n"
+                },
+                {
+                    "date": 1688890407136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,10 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Buzgibi Home</title>\n </head>\n <body>\n+    \n+\n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n                     <h1 class=\"heroH1\">\n"
+                },
+                {
+                    "date": 1688890413968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,28 @@\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Buzgibi Home</title>\n </head>\n+\n+<!-- <header>\n+    <section class=\"Navbarmenu\">\n+    <img src=\"images\\Blue-logo.png\" alt=\"logo Buzgibi Buzgibiapp-logo\">\n+        <nav>\n+            <input id=\"menu-toggle\" type=\"checkbox\" />\n+            <label class='menu-button-container' for=\"menu-toggle\">\n+                <div class='menu-button'></div>\n+            </label>\n+            <ul class=\"menu\">\n+                <li class=\"signin\">Sign in</li>\n+                <li class=\"signup\">Sign Up</li>\n+            </ul>\n+        <nav>  \n+    </section>\n+</header> -->\n+\n <body>\n-    \n \n+\n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n                     <h1 class=\"heroH1\">\n"
+                },
+                {
+                    "date": 1688890420507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n     </section>\n </header> -->\n \n <body>\n+    <div >\n \n-\n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n                     <h1 class=\"heroH1\">\n"
+                },
+                {
+                    "date": 1688890428202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     </section>\n </header> -->\n \n <body>\n-    <div >\n+    <div class=\"\">\n \n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n"
+                },
+                {
+                    "date": 1688890434163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,10 @@\n     </section>\n </header> -->\n \n <body>\n-    <div class=\"\">\n+    <div class=\"header\"></div>\n+    \n \n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n"
+                },
+                {
+                    "date": 1688890440746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n </header> -->\n \n <body>\n     <div class=\"header\"></div>\n-    \n+    <div>\n \n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n"
+                },
+                {
+                    "date": 1688890456424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n </header> -->\n \n <body>\n     <div class=\"header\"></div>\n-    <div>\n+    <div >\n \n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n"
+                },
+                {
+                    "date": 1688890477531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n </header> -->\n \n <body>\n     <div class=\"header\"></div>\n-    <div >\n+    <div class=\"body-container\">\n \n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n"
+                },
+                {
+                    "date": 1688890485889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n     </section>\n </header> -->\n \n <body>\n-    <div class=\"header\"></div>\n     <div class=\"body-container\">\n+    </div>\n \n     <section >\n          <div id=\"hero\">\n              <div class=\"HERO\">\n"
+                },
+                {
+                    "date": 1688890494800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n <body>\n     <div class=\"body-container\">\n         <div class=\"header\"></div>\n         <div class=\"header\"></div>\n-        <div class=\"header\"></div>\n+        <div class=\"footer\"></div>\n     </div>\n \n     <section >\n          <div id=\"hero\">\n"
+                },
+                {
+                    "date": 1688890504640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n \n <body>\n     <div class=\"body-container\">\n         <div class=\"header\"></div>\n-        <div class=\"header\"></div>\n+        <div class=\"content\"></div>\n         <div class=\"footer\"></div>\n     </div>\n \n     <section >\n"
+                }
+            ],
+            "date": 1688877307320,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css\" integrity=\"sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css\" />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n    <link href=\"https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href= \"home.css\" />\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/images/favicon.png\">\n\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Buzgibi Home</title>\n    <header>\n        <section class=\"Navbarmenu\">\n        <img src=\"images\\Blue-logo.png\" alt=\"logo Buzgibi Buzgibiapp-logo\">\n            <nav>\n                <input id=\"menu-toggle\" type=\"checkbox\" />\n                <label class='menu-button-container' for=\"menu-toggle\">\n                    <div class='menu-button'></div>\n                </label>\n                <ul class=\"menu\">\n                    <li class=\"signin\">Sign in</li>\n                    <li class=\"signup\">Sign Up</li>\n                </ul>\n            <nav>  \n        </section>\n    </header>\n</head>\n<body>\n    <section >\n         <div id=\"hero\">\n             <div class=\"HERO\">\n                    <h1 class=\"heroH1\">\n                    We Handle the Calls,<br>\n                    <span class=\"thousand\">Every Thousand<br></span>\n                    In a Minute\n                    </h1>\n                    <p class=\"heroText\">\n                    📞We are the digital solution of cold calls using Artificial Intelligence.<br> Calling your customers and analyzing their emotion,😃🥱? Import a contact list and lean back.  \n                    </p>\n\n                <div class=\"CTAbuttons\">\n                    <button class=\"heroCTA\" onclick=\"window.location.href='ENTERLINK'\">\n                        Create<br>account\n                    </button>\n                    <button class=\"heroRead\" onclick=\"window.location.href='ENTERLINK'\">\n                        Read More<br> on This\n                    </button>\n\n                </div>\n             </div>\n         </div>\n    </section>\n</body>\n<footer id=\"footer\" class=\"footer\">\n            <div class=\"footerName\">\n                2023 - Buz Gibi App  COPYRIGHT © 2023 TTH - ALL RIGHTS RESERVED. \n            </div>\n            <div class=\"allreserved\">\n               All rights reserved\n            </div>\n</footer>\n</html>"
+        }
+    ]
+}

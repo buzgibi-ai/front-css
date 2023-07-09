@@ -1,6 +1,15 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:  #e6e6ff;
+    font-family: Duru Sans;
+
+}
+
 *
 {
-   font-family: Duru Sans !important;
+   font-family: Times !important;
 }
 
 html, body {
@@ -8,27 +17,8 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-.header-container {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 10vh;
-  }
-
-.bottom-container {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 5vh;
-  }
-
-.content {
-    position: fixed;
-    top: 10vh;
-    width: 100%;
-    height: 85vh;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 
 

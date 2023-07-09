@@ -14,22 +14,9 @@ html, body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 10vh;
+    height: 100px;
   }
 
-.bottom-container {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 5vh;
-  }
-
-.content {
-    position: fixed;
-    top: 10vh;
-    width: 100%;
-    height: 85vh;
-}
 
 
 .Navbarmenu{
