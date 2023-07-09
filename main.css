@@ -57,6 +57,9 @@ html, body {
     }
 }
 
+.menu-font {
+    font-size: 20px;
+}
 
 .lang-container {
     position: absolute;
