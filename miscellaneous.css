@@ -1,0 +1,39 @@
+/* reCaptcha */
+
+.grecaptcha-badge {
+  width: 70px !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease !important;
+  left: 4px !important;
+}
+
+.grecaptcha-badge:hover {
+  width: 256px !important;
+}
+
+
+/*  load spinner */
+
+.loading-container {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  color: #000;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+/* load spinner end */
