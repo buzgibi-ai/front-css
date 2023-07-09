@@ -79,6 +79,7 @@ html, body {
     right: 10vw;
     height: 100vh; /* For 100% screen height */
     width: 80vw; /* For 100% screen width */
+    text-align: center;
 }
 
 .user-header-container{
