@@ -325,3 +325,12 @@ html, body {
     bottom:0;
     width:100%;
 }
+
+
+.body-container {
+    position: fixed;
+    left: 10vw;
+    right: 10vw;
+    height: 100vh; /* For 100% screen height */
+    width: 80vw; /* For 100% screen width */
+}
