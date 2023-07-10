@@ -123,6 +123,14 @@ html, body {
     margin-top: 60px;
     border: #000000 solid;
   }
+
+@media screen and (max-width: 676px) {
+  .card-3d-wrap {
+/*     left: 10%; */
+    right: 10%;
+  }   
+}
+
   .card-3d-wrapper {
     width: 100%;
     height: 100%;
