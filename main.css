@@ -43,7 +43,7 @@ html, body {
   position: absolute;
   z-index: 10;
   visibility: block;
-  
+  bottom: 10px;
 }
 
 .content {
