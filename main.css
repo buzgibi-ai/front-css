@@ -121,6 +121,7 @@ html, body {
     transform-style: preserve-3d;
     perspective: 800px;
     margin-top: 60px;
+    border: #000000 solid;
   }
   .card-3d-wrapper {
     width: 100%;
@@ -202,6 +203,7 @@ html, body {
   }
 
   a, a:hover  {
+    text-decoration: none;
 	cursor: pointer;
     transition: all 200ms linear;
     color: black;
