@@ -215,3 +215,13 @@ html, body {
     font-weight: 400;
     line-height: normal;
 }
+
+.heroH1{
+    color: #222;
+    font-size: 65px;
+    font-family: Azeret Mono, monospace;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
