@@ -131,7 +131,7 @@ html, body {
 @media screen and (max-width: 676px) {
   .card-3d-wrap {
 /*     left: 10%; */
-    right: 10%;
+    right: 5%;
   }   
 }
 
