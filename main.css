@@ -90,7 +90,7 @@ html, body {
 @media screen and (max-width: 676px) {
     .cookie {
       height: 150px;
-      bootom: 10px;
+      bootom: 5px;
     }
    .content {
      height: 65vh
