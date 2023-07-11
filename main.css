@@ -84,6 +84,9 @@ html, body {
         left: 25%;
         right: 25%;
     }
+    .cookie {
+      bootom: 20px;
+    }
 }
 
 .menu-font {
