@@ -413,9 +413,9 @@ input#search-bar{
   border: 1px solid #D0CFCE;
   outline: none;
   &:focus{
-    border: 1px solid #008ABF;
+    border: 1px solid #00000;
     transition: 0.35s ease;
-    color: #008ABF;
+    color: #00000;
     &::-webkit-input-placeholder{
       transition: opacity 0.45s ease; 
   	  opacity: 0;
