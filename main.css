@@ -456,9 +456,8 @@ input#search-bar{
 }
 
 .history-item-container {
-    border: 2px solid black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
