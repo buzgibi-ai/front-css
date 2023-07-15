@@ -404,6 +404,12 @@ html, body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 676px) {
+  .search-container {
+    width: 350px;
+  }   
+}
+
 input#search-bar{
   margin: 0 auto;
   width: 100%;
