@@ -448,6 +448,13 @@ input#search-bar{
 
 /*  user enquiry, search bar, end */
 
+.list-container{
+  position: absolute;
+  top: 100px;
+  right: 25vw;
+  left: 25vw;
+}
+
 
 
 
