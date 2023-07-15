@@ -455,7 +455,11 @@ input#search-bar{
   left: 25vw;
 }
 
-
-
+.history-item-container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 
