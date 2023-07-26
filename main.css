@@ -11,8 +11,6 @@ html, body {
 }
 
 /* laoding spinner start  */
-body {  background: black }
-
 .loader,
 .loader:after {
   border-radius: 50%;
