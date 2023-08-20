@@ -637,12 +637,8 @@ table th {
     /* Add any hover effects you'd like */
 }
 
-
-
-
-
-
-
-
-
-
+.make-survey-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+}
