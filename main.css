@@ -617,7 +617,7 @@ table th {
 
 /* voice lock loader end */
 
-.make-survey-button button {
+.make-survey-button a {
     background-color: #5D49F4;
     width: 243px;
     height: 55px;
@@ -632,7 +632,7 @@ table th {
     cursor: pointer;
 }
 
-.make-survey-button button:hover {
+.make-survey-button a:hover {
     background-color: #4739E6;
     /* Add any hover effects you'd like */
 }
