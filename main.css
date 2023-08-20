@@ -642,3 +642,16 @@ table th {
     justify-content: center;
     margin-top: 20px; /* Adjust as needed */
 }
+
+.home-headline {
+    text-align: center;
+    font-size: 50px;
+}
+
+.home-headline h1
+
+.text-gradient{
+    background: linear-gradient(102deg, #5D3DF8 0%, #DF3ECB 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
