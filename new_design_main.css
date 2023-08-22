@@ -201,7 +201,7 @@ body, html {
     margin-top: 20px; /* Adjust as needed */
 }
 
-.cta-button button {
+.cta-button a {
     background-color: #5D49F4;
     width: 243px;
     height: 55px;
@@ -216,7 +216,7 @@ body, html {
     cursor: pointer;
 }
 
-.cta-button button:hover {
+.cta-button a:hover {
     background-color: #4739E6;
     /* Add any hover effects you'd like */
 }
@@ -426,7 +426,7 @@ body, html {
 
 .threewords h4,
 .heroheader h1,
-.cta-button button {
+.cta-button a {
     text-align: center;
     font-weight: 700;
 }
