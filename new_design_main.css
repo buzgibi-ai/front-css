@@ -2,6 +2,8 @@
     font-family: "Inter", sans-serif;
     align-items: center;
     justify-content: center;
+    top: auto;
+    bottom: auto;
 }
 /* Reset some default styles */
 body, html {
