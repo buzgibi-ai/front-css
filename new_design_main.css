@@ -475,23 +475,3 @@ footer th img{
 footer td {
     font-size: 14px;
 }
-
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.navbar {
-  background-color: #fff;
-  padding: 20px 0;
-}
-
-.logo img {
-  max-width: 100%;
-  height: auto;
-  right: 0px;
-  
-}
-
