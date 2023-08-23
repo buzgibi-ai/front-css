@@ -110,6 +110,20 @@ body, html {
     color: #f8f8f8;
 
 }
+
+.nav-auth .nav-link:first-child {
+    border: 1.12px solid #5D49F4;
+}
+
+.nav-auth .nav-link:last-child {
+    color: #f5f5f5;
+    background-color: #5D49F4;
+}
+
+.nav-auth .nav-link:last-child:hover {
+    background-color: #4739E6;
+    color: #f8f8f8;
+}
 /* Media query for mobile */
 @media (max-width: 768px) {
     .burger{
@@ -201,7 +215,7 @@ body, html {
     margin-top: 20px; /* Adjust as needed */
 }
 
-.cta-button a {
+.cta-button button {
     background-color: #5D49F4;
     width: 243px;
     height: 55px;
@@ -216,7 +230,7 @@ body, html {
     cursor: pointer;
 }
 
-.cta-button a:hover {
+.cta-button button:hover {
     background-color: #4739E6;
     /* Add any hover effects you'd like */
 }
@@ -426,7 +440,7 @@ body, html {
 
 .threewords h4,
 .heroheader h1,
-.cta-button a {
+.cta-button button {
     text-align: center;
     font-weight: 700;
 }
